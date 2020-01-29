@@ -1,0 +1,50 @@
+a/*Script : Archivo_css
+//Creado el : 028-10-2019
+//Creado por: ncgomez17
+*/
+#modal {
+  width:100%; /*Toma el 100% del ancho de la página*/
+  height:100%; /*Toma el 100% del alto de la página*/
+  position:fixed; /*Con este código hacemos que el contenedor se mantenga en la pantalla y para que tome las dimensiones del body y no de la entrada*/
+  background-color: rgba(1, 1, 1, 0.5); /*Color de fondo, incluye opacidad del 90%*/
+  top:0; /*Position superior*/
+  left:0; /*Posición lateral*/
+  z-index:10; /*Evitamos que algún elemento del blog sobreponga la ventana modal*/
+}
+#contenido-interno { 
+  background: #d7e6ec;/*establecemos un color de fondo*/
+  position: absolute;/*establemos la posicion como absoluta*/
+  z-index: 20;/*le damos una prioridad de cubrir de un 20*/
+  border-radius:5px;/*establecemos el borde del display redondeado*/
+  width: 500px;/*establecemos tamaño*/
+  height: 90px;/*establecemos altura*/
+  margin-top: 250px;/*establecemos el margen superior*/
+  margin-left: 420px;/*establecemos el margen de la izquierda*/
+}
+
+#aviso{
+  position:absolute;/*lo establecemos como ruta absoluta*/
+  margin-top: 5px;/*establecemos un margen superior*/
+  margin-left: 20px;/*establecemos un margen a la izquierda*/
+}
+
+#aviso img{
+  width: 80px;/*establecemos el tamaño de la imagen*/
+}
+
+#mensajeError{
+  font-size: 15px;/*establecemos el tamaño de la fuente*/
+  font-weight: bold;/*establecemos un peso de la fuente */
+  position: absolute;/*lo establecemos como posicion absoluta*/
+  margin-left: 178px;/*establecemos el margen a la izquierda*/
+  margin-top: 30px;/*establecemos el margen superior*/
+  color: #d50000;/*establecemos el color del mensaje*/
+  font-family: "Open Sans";/*establecemos la fuente*/
+}
+
+#cerrar {
+  position:absolute;/*lo establecemos como posicion absoluta*/
+    top:0px;/*top de 0*/
+    right:0px;/*derecha de 0*/
+    padding:2px;/*padding de 2px*/
+}

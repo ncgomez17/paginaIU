@@ -1,0 +1,246 @@
+/*Script : Archivo_css
+//Creado el : 28-10-2019
+//Creado por: ncgomez17
+*/
+body{
+	  font-family: 'Cuprum', sans-serif;/*indicamos el tipo de fuente*/
+	  background-color:lightblue;/*le indicamos el color de fondo*/
+    display:block;/*lo tratamos como un bloque*/
+    height: 100%;/*ocupara toda la altura*/
+    width: 100%;/*ocupara todo el ancho*/
+    margin: 0px;/*margen de 0*/
+    padding: 0px;/*padding de 0*/
+
+}
+header{
+	  background-color: #045FB4;/*color de fondo*/
+    min-height: 10%;/*le metemos como altura mínima un 10%*/
+    text-align: center;/*alineamos todo al centro*/
+    display: block;/*el header lo tratamos como un bloque*/
+}
+
+h1{
+	text-align: center;/*alineamos el texto al centro*/
+}
+ul{
+    list-style-type: none;/*no especificamos ningún marcador de fuente*/
+    margin:0;/*no metemos margen*/
+    padding: 0;/*no metemos padding*/
+    overflow: hidden;/*si el contenido desborda es recortado*/
+    background-color: #434242;/*color de fondo*/
+    text-align:center;/*alineamos al centro*/
+}
+li{
+    float:left;/*lo metemos a la izquierda*/
+}
+nav ul li {
+    float: left;/*lo metemos a la izquierda*/
+    font-size: 9px;/*tamaño de fuente de 9pixeles*/
+
+}
+
+nav ul li a {
+    display: flex;/*metemos todo dentro de un bloque*/
+    color: white;/*establecemos color blanco*/
+    text-align: center;/*alineamos el texto al centro*/
+    padding: 10px 10px;/*establecemos un padding de 10px arriba y abajo*/
+    text-decoration: none;/*quitamos las decoraciones de texto*/
+    font-size: 15px;/*el tamaño de la fuente sera de 15px*/
+
+}
+ article{
+    display:inline-block;/*creamos un bloque que se extienda en toda la linea*/
+    width: 100%;/*ocupa todo el ancho*/
+}
+
+footer{
+    display:block;/*lo tratamos como un bloque*/
+    min-height: 10%;/*ponemos un minimo de altura de un 10%*/
+    text-align: right;/*alineamos todo en el centro*/
+    background-color: #045FB4;/*le introducimos un color de fondo*/
+
+}
+fieldset{
+  text-align: center;/*alineamos el texto al centro*/
+  align-items: center;/*alineamos los elementos al centro*/
+  padding: 10px;/*establecemos un padding de 10px*/
+}
+form input[type=text] {
+    width: 33%;/*establecemos el ancho*/
+    display:block;/*lo tratamos como un bloque*/
+    margin-left: 33%;/*aplicamos el margen a la izquierda*/
+    margin-right: 33%;/*aplicamos el margen a la derecha*/
+    padding: 5px;/*aplicamos un padding*/
+    border: 1px solid #ccc;/*establecemos el color del borde*/
+    border-radius: 4px;/*establecemos un radio redondeado del formulario*/
+    box-sizing: border-box;/*lo tratamos como un border-box*/
+}
+form input[type=number] {
+    width: 33%;/*establecemos el ancho*/
+    display:block;/*lo tratamos como un bloque*/
+    margin-left: 33%;/*aplicamos el margen a la izquierda*/
+    margin-right: 33%;/*aplicamos el margen a la derecha*/
+    padding: 5px;/*aplicamos un padding*/
+    border: 1px solid #ccc;/*establecemos el color del borde*/
+    border-radius: 4px;/*establecemos un radio redondeado del formulario*/
+    box-sizing: border-box;/*lo tratamos como un border-box*/
+}
+form input[type=password] {
+    width: 33%;/*establecemos el ancho*/
+    display:block;/*lo tratamos como un bloque*/
+    margin-left: 33%;/*aplicamos el margen a la izquierda*/
+    margin-right: 33%;/*aplicamos el margen a la derecha*/
+    border: 1px solid #ccc;/*aplicamos un padding*/
+    padding: 5px;/*establecemos el color del borde*/
+    border-radius: 4px;/*establecemos un radio redondeado del formulario*/
+    box-sizing: border-box;/*lo tratamos como un border-box*/
+}
+form input[type=date] {
+    width: 33%;/*establecemos el ancho*/
+    margin-left: 33%;/*lo tratamos como un bloque*/
+    margin-right: 33%;/*aplicamos el margen a la izquierda*/
+    padding: 5px;/*aplicamos el margen a la derecha*/
+    display: block;/*aplicamos un padding*/
+    border: 1px solid #ccc;/*establecemos el color del borde*/
+    border-radius: 4px;/*establecemos un radio redondeado del formulario*/
+    box-sizing: border-box;/*lo tratamos como un border-box*/
+}
+form select {
+    width: 33%;/*establecemos el ancho*/
+    margin-right:33%;/*lo tratamos como un bloque*/
+    margin-left: 33%;/*aplicamos el margen a la izquierda*/
+    padding: 5px;/*aplicamos el margen a la derecha*/
+    display:block;/*aplicamos un padding*/
+    border: 1px solid #ccc;/*establecemos el color del borde*/
+    border-radius: 4px;/*establecemos un radio redondeado del formulario*/
+    box-sizing: border-box;/*lo tratamos como un border-box*/
+}
+form{
+  text-align: center;/*alineamos el texto al centro*/
+  align-items: center;/*alineamos los objetos al centro*/
+  font-family: 'Cuprum', sans-serif;/*establecemos el tipo de fuente*/
+
+}
+.inicio{
+  display: block;/*tratamos como un bloque*/
+  text-align: left;/*alineamos el texto a la izquierda*/
+}
+.inicio p{
+  display: inline-block;/*lo tratamos como un bloque en una linea*/
+  font-family:Helvetica,Futura,Arial,Verdana,sans-serif;/*establecemos la fuente*/
+  font-size: 30px;/*establecemos el tamaño de la fuente*/
+  float:left;/*lo movemos a la izquierda*/
+  margin-left: 110px;/*establecemos el margen a la izquierda*/
+  width: 80%;/*establecemos el ancho*/
+}
+#imagenes{
+  display:inline-block;/*lo tratamos como un bloque en una linea*/
+  width: 80%;/*establecemos un ancho*/
+  float: left;/*lo movemos a la izquierda*/
+  font-family:Helvetica,Futura,Arial,Verdana,sans-serif;/*establecemos la fuente*/
+  margin-left: 110px;/*establecemos el margen a la izquierda*/
+  text-align: left;/*alineamos el texto a la izquierda*/
+}
+h2{
+  float:left;/*lo movemos a la izquierda*/
+}
+#explicación{
+  display:inline-block;/*lo tratamos como un bloque en una linea*/
+  min-height: 20%;/*establecemos un minimo de altura*/
+
+}
+#nav{
+  display: block;/*metemos todo en un bloque*/
+}
+li{
+  list-style-position: inside;/*Especifica la posicion de los marcadores de elementos de la lista*/
+}
+
+#main{
+  display:block;/*tratamos como un bloque*/
+  text-align: center;/*colocamos el menu lateral a la izquierda*/
+  min-height: 80%;/*establecemos un minimo de altura80%*/
+  height: auto;/*la altura va creciendo */
+}
+
+.Formulario{
+	text-align: center;/*centramos el texto*/
+}
+#linea{
+    padding: 0px;/*establecemos el padding*/
+    margin-bottom: 0px;/*establecemos el bottom*/
+    margin-right: 0px;/*no tenemos nada de margen a la derecha*/
+    margin-left: 0px;/*no tenemos nada de margen a la izquierda*/
+    border: 1.5px solid #434242;/*indicamos el borde,su ancho y su color*/
+
+}
+.Idioma{
+  	float: right;/*lo metemos como un elemto flotante a la derecha*/
+    margin: 5px,10px,5px;/*establecemos el margen en todas las direcciones*/
+    padding: 5px;/*establecemos el padding*/
+  	display: inline-block;/*colocamos un bloque en la linea al que se le puede modificar el tamaño*/
+}
+.Usuario {
+	text-align: center;/*alineamos el texto al centro*/
+	clear:right;/*realiza un salto de linea antes de introducir el siguiente elemento*/
+}
+.tabla{
+  display: inline-block;/*metemos la tabla en un bloque*/
+  overflow:hidden;/*si llenamos la tabla se creara un scroll*/
+  min-height: 60%;/*establecemos un minimo de altura*/
+}
+.mensajetabla{
+   display: inline-block;/*metemos la tabla en un bloque*/
+  overflow:hidden;/*si llenamos la tabla se creara un scroll*/
+}
+
+#Desconectar{
+	align-items: right;/*colocamos el elemento a la derecha*/
+	text-align: right;/*colocamos el texto a la derecha*/
+}
+.metodos{
+  display: block;/*lo tratamos como un bloque*/
+  text-align: center;/*colocamos el texto a la izquierda*/
+  margin-left: 20px;/*establecemos un borde de 20 px*/
+  text-decoration:none;/*eliminamos todas las decoraciones de texto*/
+}
+.volver{
+  text-align: center;/*alineamos el texto al centro*/
+}
+.idiomas{
+    background-color:white;/*el color de fondo sera negro*/
+    text-decoration: none;/*no le introducimos ninguna decoración al texto*/
+    border: 1px solid #ccc;/*establecemos un borde*/
+    border-radius: 4px;/*establecemos las esquinas redondeadas*/
+    padding: 5px;/*establecemos un padding*/
+    display: inline-block;/*colocamos un bloque en la linea al que se le puede modificar el tamaño*/
+}
+
+div.Registrar{
+	  background-color:green;/*establecemos un color de fondo*/
+  	padding: 14px 25px;/*establecemos el padding*/
+  	text-align: center;/*alineamos el texto al centro*/
+  	text-decoration: none;/*quitamos todas las decoraciones del texto*/
+  	display: inline-block;/*lo tratamos como un bloque en linea*/
+}
+table {
+	  border:5px solid;/*establecemos los bordes*/
+    border-collapse: collapse;/* establecemos si los bordes de la tabla deben colapsar en un solo borde o separarse*/
+    border-color: black;/*establecemos el color del borde*/
+}
+th{
+    text-align: center;/*alineamos el texto al centro*/
+    padding: 15px;/*establecemos el padding*/
+    border: 1.5px solid #434242;/*establecemos el borde y un color de este*/
+}
+td {
+    text-align: center;/*alineamos el texto al centro*/
+    padding: 8px;
+    border: 1.5px solid #434242;/*establecemos el borde y un color de este*/
+}
+tr {
+    border: 1.5px solid #434242;/*establecemos el borde y un color de este*/
+}
+
+
+
